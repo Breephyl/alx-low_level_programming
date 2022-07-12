@@ -1,11 +1,8 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * reset_to_98 - Updates the value it points to 98
- * @n: pointer to n
- *
- * Return: void
+ * reset_to_98 -> a function to update the reference of a pointer
+ * @n: pointer to n to be updated
  */
 void reset_to_98(int *n)
 {
